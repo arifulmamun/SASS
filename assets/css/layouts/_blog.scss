@@ -1,0 +1,32 @@
+
+.single-blog {
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+    background-color: $bg_grey;
+    border: 2px solid $bg_grey;
+    &:hover {
+        .blog-img {
+            transform: scale(1.1);
+        }
+    }
+    &:last-child {
+    margin-right: 0;
+    margin-left: 22px;
+    
+    }
+}
+.blog-img {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    transition: .3s;
+    overflow: hidden;
+    }
+.blog-content {
+    padding: 20px;
+    h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    }
+}

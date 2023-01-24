@@ -1,0 +1,28 @@
+
+
+.single-portfolio {
+    height: 250px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    &:last-child {
+        margin-right: 0;
+        margin-left: 22px;
+        h4 {
+            background-color: $black;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            color: $white;
+            text-transform: uppercase;
+            }
+        }
+    }

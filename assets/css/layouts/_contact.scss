@@ -1,0 +1,24 @@
+.contact-area {
+    background-color: $bg_grey;
+}
+.single-address {
+    float: left;
+    width: 390px;
+    i {
+        font-size: 30px;
+    }
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-top: 15px;
+            span {
+                text-transform: lowercase;
+                font-size: 14px;
+                font-weight: normal;
+                display: block;
+                margin-top: 5px;
+                }  
+            }
+        
+        }
